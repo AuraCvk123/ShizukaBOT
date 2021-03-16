@@ -47,19 +47,18 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Admin Shizuka BOT\n' 
-            + 'ORG: Pengembang Shizuka BOT;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6281281872699:+62 812-8187-2699\n' 
+            + 'FN:Admin Loli BOT\n' 
+            + 'ORG: Pengembang Loli BOT;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6288221611480:+62 882-2161-1480\n' 
             + 'END:VCARD'
 prefix = '$'
 blocked = []   
 limitawal = 99999
 memberlimit = 0
-cr = '*SHIZUKA THIS IS ALREADY VERIFIED*'
+cr = '*LOLI THIS IS ALREADY VERIFIED*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6281212594112@s.whatsapp.net"] 
-const pacarNumber = ["6281281872699@s.whatsapp.net"]
+const ownerNumber = ["6288221611480@s.whatsapp.net"] 
 /************************************/
 
        
@@ -3382,10 +3381,8 @@ itsmeiky.on('group-participants-update', async (anu) => {
   ❏ Wa: wa.me/6281281872699
   ❏ Ig: https://instagram.com/itsmeikyxsec404
   ----------------------------------
-◪ *INFO SHIZUKA*
-  ❏ Nama: SHIZUKA
-  ❏ Web: https://shizukaa.xyz/
-  ❏ Web Api: https://shizukaa.xyz/
+◪ *INFO LOLI*
+  ❏ Nama: LOLI-BOT
   ----------------------------------
 ◪ *YOUR INFO*
   ❏ Prefix: 「  ${prefix}  」
@@ -3735,7 +3732,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
   ├─ ❏ ${prefix}qrcode
   └─ ❏ ${prefix}afk
   
-◪ *POWERED BY ITSMEIKYXSEC404*`
+◪ *POWERED BY MY BEE*`
                     itsmeiky.sendMessage(from, wew, image, { quoted: iky, caption: shiz })
 					break
 		case 'donasi':
